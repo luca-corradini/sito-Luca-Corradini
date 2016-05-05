@@ -1,0 +1,76 @@
+body,html {padding: 0px;overflow-x: hidden;font-family: lato;}
+
+
+.navbar-fixed-top{width:970px; margin: 30px auto}
+.navbar {text-transform: uppercase;background-color: #00ebbe;background-image: none;border:none;}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {color:#000;font-weight: 300}
+
+
+.my-container{width: 100%; float:left; width:100%;padding:0;margin:0;}
+
+	
+	.in-panel {width:970px;margin: 0 auto;}
+	.in-panel h2{margin-top:120px;text-transform: uppercase; font-weight:300; font-size:40px;float:left; }
+	.in-panel p{font-size:18px;width:100%; clear: both; -moz-column-count:2;-webkit-column-count:2;column-count:2;margin-bottom:90px}
+				
+		strong{font-size: 24px; font-weight: 300}
+		cite a{color: #00ebbe;font-weight: 700; text-transform: capitalize; font-style: italic;font-size: 16px}
+
+	
+	#home{background: url(img/3.jpg) no-repeat 50% 0 fixed;height: 540px;position:relative;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	#copertina{background: #fff; padding:15px 30px;color:#000;opacity: 0.8;position: absolute; bottom: 50%; left:50%; font-size: 90px; font-weight: 300; text-transform: uppercase; margin-left:-485px;margin-bottom:-200px;width:970px;}
+
+
+	.people{background: url(img/1.jpg) no-repeat 50% 0 fixed; height: 640px;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.people h2{color:#000; background: #fff;padding:10px 15px;opacity: 0.8}
+	
+	
+	.street{ background: url(img/2.jpg) no-repeat 50% 0 fixed;height: 600px;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.street h2{color:#000; background: #fff;padding:10px 15px;opacity: 0.8}
+	
+	.street2{ background: url(img/4.jpg) no-repeat 50% 0 fixed;height: 600px;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.street h2{color:#000; background: #fff;padding:10px 15px;opacity: 0.8}
+	
+	
+	.footer{background: #333;border:none; height: 250px}
+	.footer p{font-size:100px; font-weight: 100; color:#00ebbe; text-align: center;}
+
+
+@media (max-width: 992px) {
+
+.navbar-fixed-top{width:100%; margin: 0}
+
+	#home{height:320px}
+	
+	#copertina{position: absolute; bottom: 20%; left:0%; font-size: 30px; font-weight: 300; margin-left: 0;margin-bottom:0;width:100%;}
+	
+	.in-panel{width:90%; margin-right:5%}
+	.in-panel h2{margin-top:70px;}
+	.in-panel p {font-size: 14px;-moz-column-count:1;-webkit-column-count:1;column-count:1;}
+	
+	.full-panel{background-position: 0 0!important;}
+	
+	.footer p{font-size:30px;}
+
+}
+
